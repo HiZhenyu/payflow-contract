@@ -52,7 +52,7 @@ The Rust enums remain the source of truth: [plan-registry errors](../contracts/p
 | 2010 | `InvalidMaxCharges` | The maximum-charge value is invalid. |
 | 2011 | `NotMerchant` | The caller is not the merchant for the mandate. |
 | 2012 | `AmountOverflow` | Arithmetic overflow occurred while calculating an amount. |
-| 2013 | `InvalidUntil` | The supplied expiry/\`until\` value is invalid. |
+| 2013 | `InvalidUntil` | The supplied expiry/`until` value is invalid. |
 | 2014 | `RefundExceedsReceived` | The requested refund exceeds the amount received. |
 | 2015 | `InvalidAmount` | An amount is zero or otherwise invalid for the operation. |
 | 2016 | `DifferentToken` | A token differs from the token recorded for the mandate or plan. |
